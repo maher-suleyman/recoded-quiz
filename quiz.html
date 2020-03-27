@@ -14,7 +14,7 @@
               color: #F00;
             }
 
-            h2{
+            h2, h3{
               font-style: italic;
               color: rgb(0, 0, 161);
             }
@@ -42,6 +42,33 @@
 
             u{
               font-weight: 600;
+            }
+
+            img{
+                width: 215px;
+                height: 234px;
+                border: 2px solid red;
+                vertical-align: middle;
+            }
+
+            span{
+                display: inline-block;
+                width: 400px;
+                line-height: 25px;
+            }
+
+            table{
+                border-collapse: collapse;
+                width: 25%;
+            }
+
+            th, td{
+                height: 25px;
+            }
+
+            table, th, td {
+                text-align: center;
+                border: 1px solid blue;
             }
         </style>
 
@@ -108,6 +135,100 @@
                 </li>
             </ul>
         </section>
+
+        <br><br><br><br><br>
+
+        <section>
+            <h2 id="testimonies">Testimonies:</h2>
+            <div>
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZzXWqiZjOn3_jTG-ihtbevOVrbo9hqtocCm3bt-G-N4KFENMQ" alt="John_Doe’s_picture">
+                    <span><b>John Doe: </b><q>Never worked with a professional before, but now I can proudly say I have!</q></span><figcaption>John Doe’s picture</figcaption>
+                </figure>
+            </div>
+            <br><br>
+            <div>
+                <figure>
+                    <img src="https://www.pngkit.com/png/detail/28-284289_anonymous-clipart-female-woman-icon-black-and-white.png" alt="Jane_Doe’s_picture">
+                    <span><b>Jane Doe: </b><q>ba bla bla bla bla....!!</q></span><figcaption>Jane Doe’s picture</figcaption>
+                </figure>
+            </div>
+            <br><br>
+            <div>
+                <figure>
+                    <img src="https://cdnuploads.aa.com.tr/uploads/Contents/2015/03/19/thumbs_b_c_28d257031c40f9856a1a70ae8b879b7d.jpg" alt="Richard_Roe’s_picture">
+                    <span><b>Richard Roe: </b><q>ba bla bla bla bla....!!</q></span><figcaption>Richard Roe’s picture</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <br><br><br><br><br>
+
+        <section>
+            <h2 id="meet-our-team">Meet Our Team:</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Job</th>
+                </tr>
+                <tr>
+                    <td>Jaime</td>
+                    <td>Manager</td>
+                </tr>
+                <tr>
+                    <td>Louis</td>
+                    <td>Instructor</td>
+                </tr>
+                <tr>
+                    <td>Ammar</td>
+                    <td>Teaching Assistant‎</td>
+                </tr>
+            </table>
+        </section>
+
+        <br><br><br><br><br>
+
+        <section>
+            <h2 id="contact-us">Contact us:</h2>
+            <form>
+                <div>
+                    <label for="name">Name:</label><br>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="40" placeholder="Write your message here!!"></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="radio" name="job-or-service">
+                    <label>You’re looking for a job</label>
+                </div>
+                <div>
+                    <input type="radio" name="job-or-service">
+                    <label>You’re looking for a service</label>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </section>
+
+        <br><br><br><br><br>
+
+        <div>
+            <h3><u>Follow me on:</u></h3>
+            <a href="https://www.facebook.com/maher.suleyman.ms">Facebook</a> |
+            <a href="https://www.instagram.com/maher.suleyman">Instagram</a> |
+            <a href="https://www.youtube.com/channel/UCqrmmzzU58k7pSfbACoCEgw">YouTube</a>
+        </div>
+
+        <br><br><br><br><br><br><br><br><br><br><br>
 
     </body>
 </html>
